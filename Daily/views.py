@@ -7,10 +7,10 @@ from django.http import HttpResponse
 def update_forex_data(request):
     # Connect to MySQL database
     mydb = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="123456",
-        database="forex_database"
+        host="pcd-server.mysql.database.azure.com",
+        user="admin12",
+        password="Mohamed54427746",
+        database="forex"
     )
 
     # Open a cursor to execute SQL commands

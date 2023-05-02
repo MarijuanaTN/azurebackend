@@ -9,10 +9,10 @@ import mysql.connector
 def update_forex_data():
     # Connect to MySQL database
     mydb = mysql.connector.connect(
-      host="localhost",
-      user="root",
-      password="123456",
-      database="forex_database"
+        host="pcd-server.mysql.database.azure.com",
+        user="admin12",
+        password="Mohamed54427746",
+        database="forex"
     )
 
     # Open a cursor to execute SQL commands

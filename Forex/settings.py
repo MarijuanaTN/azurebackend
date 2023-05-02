@@ -82,11 +82,12 @@ WSGI_APPLICATION = 'Forex.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'forex_database',
-        'USER': 'root',
-        'PASSWORD': '123456',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'NAME': 'forex',
+        'USER': 'admin12',
+        'PASSWORD': 'Mohamed54427746',
+        'HOST': 'pcd-server.mysql.database.azure.com',
+        'PORT':'3306',
+        
     }
 }
 
